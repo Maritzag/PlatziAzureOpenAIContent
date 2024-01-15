@@ -1,1 +1,1 @@
-# PlatziAzureOpenContent
+# PlatziAzureOpenAIContent
