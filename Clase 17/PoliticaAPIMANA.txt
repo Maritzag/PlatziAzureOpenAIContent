@@ -1,0 +1,22 @@
+<policies>
+    <inbound>
+        <base />
+        <set-header name="api-key" exists-action="override">
+            <value>{openAIall}</value>
+        </set-header>
+    </inbound>
+    <backend>
+        <base />
+    </backend>
+    <outbound>
+        <base />
+    </outbound>
+    <on-error>
+        <base />
+    </on-error>
+</policies>
+
+
+promt para el test 
+{"model":"gpt-35-turbo", "messages":[{"role":"user",
+"content":"Mi nombre es Maritza Mera"}]}

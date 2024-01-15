@@ -1,0 +1,10 @@
+{
+ "messages": [
+    {
+    "role": "user",
+    "content": "cuántas caras tiene una moneda"
+    }
+ ],
+ "temperature":0.7,
+ "top_p": 0.9
+}

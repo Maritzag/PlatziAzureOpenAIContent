@@ -1,0 +1,3 @@
+AzureDiagnostics
+| take 100
+| project TimeGenerated, _ResourceId, Category, OperationName
